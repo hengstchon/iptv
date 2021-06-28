@@ -1,9 +1,9 @@
-import { Box, Heading, Text, Button, ButtonGroup } from '@chakra-ui/react'
+import { Box, ButtonGroup, Heading } from '@chakra-ui/react'
 import LinkButton from './LinkButton'
 
 const Card = ({ item }) => {
   return (
-    <Box w="400px" p={4} borderWidth="1px" borderRadius="lg" overflow="hidden">
+    <Box w="300px" p={4} borderWidth="1px" borderRadius="lg" overflow="hidden">
       <Heading size="md">{item.name}</Heading>
 
       <ButtonGroup mt={4} variant="outline" spacing="2">
